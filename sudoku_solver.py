@@ -86,7 +86,7 @@ def find_empty_cell(grid):
                 return (i, j)
     return None
 
-image = cv2.imread('/Users/apple/Desktop/Screenshot 2024-02-26 at 2.56.28 PM.png')
+image = cv2.imread('') # Add the path to your unsolved sudoku image here
 
 preprocessed_image = preprocess_image(image)
 
